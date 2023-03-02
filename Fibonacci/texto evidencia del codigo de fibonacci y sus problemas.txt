@@ -1,0 +1,71 @@
+
+El problema a resolver es corregir los errores lógicos y sintácticos en el código proporcionado para que pueda calcular y mostrar la serie de Fibonacci con la cantidad de términos indicados por el usuario.
+
+La estructura de software necesaria para resolver el problema consiste en un programa que solicita al usuario la cantidad de términos que desea imprimir, calcula la serie de Fibonacci y muestra los términos correspondientes.
+
+El algoritmo para resolver este problema podría ser el siguiente:
+
+Solicitar al usuario la cantidad de términos que desea imprimir y almacenarla en la variable n.
+Inicializar las variables a y b en 0 y 1 respectivamente.
+Si n es igual a 1, imprimir 0.
+Si n es igual a 2, imprimir 0 y 1.
+Si n es mayor que 2, imprimir 0, 1 y luego iterar n-2 veces:
+a. Calcular el total como la suma de a y b.
+b. Asignar el valor de b a la variable a.
+c. Asignar el valor de total a la variable b.
+d. Imprimir el valor de total.
+Finalizar el programa.
+
+
+
+
+
+---------------------------------------------
+el codigo presenta los siguientes errores
+La variable n no está siendo asignada un valor.
+El usuario no es solicitado para ingresar la cantidad de términos que desea imprimir.
+La lógica de impresión de los términos de la serie de Fibonacci está incorrecta.
+El nombre de la variable total no es claro y puede ser confuso.
+La sintaxis en la asignación de valores a las variables a y b es incorrecta.
+La sentencia print en el caso elif n !== 2 no está bien escrita y genera un error sintáctico.
+La sentencia for está mal escrita y genera un error sintáctico.
+
+
+
+
+
+-------------------------Copia del codigo presentado por el profe.
+El programa debe permitir solicitarle al usuario la cantidad de términos que se
+desean imprimir y debe imprimir dichos términos.
+Programa
+Este programa calcula la serie de Fibonacci e imprime la cantidad de
+términos dependiendo del valor de n
+a = 10 ->permite solicitar al usuario el numero de términos
+b = 1
+if n = 1
+ print('0)
+elif n !== 2:
+print('0','1')
+ else
+ prints'0')
+ print(a)
+ print(b)
+ for i in range(n-3
+ total = a - b
+ b = a
+ a == total
+ pnt(total)
+Identifique los errores (escribiéndolos en un archivo de texto) y corrija el código de tal
+forma que pueda ser ejecutado de forma correcta. Este código contiene errores tanto
+lógicos como sintácticos. Para verificar que su código es funcional, para 10 términos la
+respuesta esperada es:
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34

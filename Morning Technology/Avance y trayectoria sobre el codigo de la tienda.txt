@@ -1,0 +1,39 @@
+El problema a resolver es el desarrollo de un sistema de facturación para manejar la celebración de los 20 años de Email Technology, que permita ofrecer descuentos a los clientes en los productos seleccionados mediante el ingreso de un codigo establecido y que se cumplan cirterios establecidos por la tienda correspondiente con la compra a realizar de los productos seleccionados.
+
+La estructura del sofware
+
+Autenticación de los usuarios a través de un PIN.
+Capturar la cantidad de productos deseados por el usuario.
+Calcular el descuento correspondiente según los criterios establecidos.
+Calculo de impuestos correspondiente a la compra realizada
+Mostrar el resumen de la compra con el monto total y el descuento aplicado.
+
+Algoritmo
+
+
+Pedir al usuario que ingrese el codigo y verificar si es autenticado (getpass)
+"abc123", "def456", "ghi789" estos serian los codigos autorizados para poder ingresar
+Si el usuario es autenticado, decirle "Autenticación exitosa"
+Si el usuario no es autenticado, decirle que "codigo no valido o incorrecto"
+Si muestra "Autenticación exitosa" decirle "Haga su compra"
+	Preguntarle al cliente "¿Cuantos 'nombre de producto' desea comprar?"
+	Calcular total de productos seleccionados
+
+		Inicializar la lista de productos y los totales de descuentos e impuestos.
+		a. Verificar lista de productos seleccionados con descuentos
+		b. Aplicar los descuentos correspondientes.
+		c. Verificar los impuestos a aplicar.
+		c. Incrementar el total de descuentos y el total de impuestos en función de los descuentos y impuestos aplicados.
+
+Calcular el total a pagar sumando el total de productos, descuentos e impuestos.
+
+Imprimir el resumen del descuentos e impuestos aplicados, así como el total a pagar.
+Imprimir al final de haber dado el resumen de producto "Gracias por su preferencia"
+
+
+
+
+
+
+
+
